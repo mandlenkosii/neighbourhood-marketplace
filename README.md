@@ -3,7 +3,7 @@
 This is demo app providing a space where people in the same community can rent or borrow equipment
 
 Currently, two official plugins are available:
-
+link to loom video : https://www.loom.com/share/89e51f42e6e647baa8cd6e1966f96a58
 live vercel deployment :https://neighbourhood-marketplace-orpin.vercel.app/
 
 It is however under production as more features are to be edded
