@@ -1,11 +1,13 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is demo app providing a space where people in the same community can rent or borrow equipment
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+live vercel deployment :https://neighbourhood-marketplace-orpin.vercel.app/
+
+It is however under production as more features are to be edded
+
 
 ## React Compiler
 
