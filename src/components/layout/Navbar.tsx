@@ -9,7 +9,7 @@ export default function Navbar() {
           to="/"
           className="text-2xl font-bold text-blue-600"
         >
-          NeighbourHub
+          We-Borrow
         </Link>
 
         <nav className="hidden gap-8 md:flex">

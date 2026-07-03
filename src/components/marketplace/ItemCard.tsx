@@ -1,5 +1,5 @@
 import type { Item } from "../../types/Item";
-
+import { Link } from "react-router-dom";
 interface ItemCardProps {
   item: Item;
 }
@@ -37,9 +37,12 @@ export default function ItemCard({ item }: ItemCardProps) {
             R{item.pricePerDay}/day
           </span>
 
-          <button className="rounded-xl bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700">
-            View
-          </button>
+         <Link
+  to={`/items/${item.id}`}
+  className="rounded-xl bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700"
+>
+  View Details
+</Link>
         </div>
       </div>
     </div>
