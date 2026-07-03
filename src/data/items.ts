@@ -1,0 +1,58 @@
+import type { Item } from "../types/Item";
+
+export const items: Item[] = [
+  {
+    id: "1",
+    title: "Bosch Cordless Drill",
+    description: "18V cordless drill ideal for DIY and home repairs.",
+    category: "Tools",
+    images: ["https://placehold.co/600x400?text=Drill"],
+    pricePerDay: 120,
+    distance: 2.4,
+    available: true,
+    owner: {
+      id: "u1",
+      firstName: "Thabo",
+      lastName: "Mokoena",
+      avatar: "https://placehold.co/100",
+      rating: 4.8,
+      location: "Rosebank",
+    },
+  },
+  {
+    id: "2",
+    title: "Camping Tent",
+    description: "4-person waterproof tent.",
+    category: "Camping",
+    images: ["https://placehold.co/600x400?text=Tent"],
+    pricePerDay: 180,
+    distance: 5.2,
+    available: true,
+    owner: {
+      id: "u2",
+      firstName: "Sarah",
+      lastName: "Naidoo",
+      avatar: "https://placehold.co/100",
+      rating: 4.9,
+      location: "Sandton",
+    },
+  },
+  {
+    id: "3",
+    title: "Pressure Washer",
+    description: "High-pressure washer for patios and driveways.",
+    category: "Cleaning",
+    images: ["https://placehold.co/600x400?text=Pressure+Washer"],
+    pricePerDay: 150,
+    distance: 3.8,
+    available: true,
+    owner: {
+      id: "u3",
+      firstName: "Michael",
+      lastName: "Smith",
+      avatar: "https://placehold.co/100",
+      rating: 4.7,
+      location: "Randburg",
+    },
+  },
+];
